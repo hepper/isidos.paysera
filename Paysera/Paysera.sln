@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paysera", "Paysera.csproj", "{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isidos.Paysera", "..\Isidos.Paysera\Isidos.Paysera.csproj", "{ADAB4E71-4D04-469D-BE80-5740167067B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

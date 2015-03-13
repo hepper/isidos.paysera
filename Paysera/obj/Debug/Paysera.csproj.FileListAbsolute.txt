@@ -1,0 +1,8 @@
+C:\projects\Paysera\Paysera\bin\Debug\Paysera.exe.config
+C:\projects\Paysera\Paysera\bin\Debug\Paysera.exe
+C:\projects\Paysera\Paysera\bin\Debug\Paysera.pdb
+C:\projects\Paysera\Paysera\obj\Debug\Paysera.csprojResolveAssemblyReference.cache
+C:\projects\Paysera\Paysera\obj\Debug\Paysera.exe
+C:\projects\Paysera\Paysera\obj\Debug\Paysera.pdb
+C:\projects\Paysera\Paysera\bin\Debug\Isidos.Paysera.dll
+C:\projects\Paysera\Paysera\bin\Debug\Isidos.Paysera.pdb
