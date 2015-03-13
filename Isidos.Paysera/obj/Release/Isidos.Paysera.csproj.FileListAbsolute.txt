@@ -1,0 +1,5 @@
+C:\projects\Paysera\Isidos.Paysera\bin\Release\Isidos.Paysera.dll.config
+C:\projects\Paysera\Isidos.Paysera\bin\Release\Isidos.Paysera.dll
+C:\projects\Paysera\Isidos.Paysera\bin\Release\Isidos.Paysera.pdb
+C:\projects\Paysera\Isidos.Paysera\obj\Release\Isidos.Paysera.dll
+C:\projects\Paysera\Isidos.Paysera\obj\Release\Isidos.Paysera.pdb

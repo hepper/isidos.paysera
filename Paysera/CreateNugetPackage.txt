@@ -1,0 +1,7 @@
+How to create nuget package : 
+
+Change Version of assembly information
+
+open project location in command prompt
+
+nuget pack Isidos.csproj -IncludeReferencedProjects -Prop Configuration=Release

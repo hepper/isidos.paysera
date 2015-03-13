@@ -3,4 +3,3 @@ C:\projects\Paysera\Isidos.Paysera\bin\Debug\Isidos.Paysera.dll
 C:\projects\Paysera\Isidos.Paysera\bin\Debug\Isidos.Paysera.pdb
 C:\projects\Paysera\Isidos.Paysera\obj\Debug\Isidos.Paysera.dll
 C:\projects\Paysera\Isidos.Paysera\obj\Debug\Isidos.Paysera.pdb
-C:\projects\Paysera\Isidos.Paysera\obj\Debug\Isidos.Paysera.csprojResolveAssemblyReference.cache

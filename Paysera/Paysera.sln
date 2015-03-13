@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paysera", "Paysera.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isidos.Paysera", "..\Isidos.Paysera\Isidos.Paysera.csproj", "{ADAB4E71-4D04-469D-BE80-5740167067B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{D7DD1654-F2D4-48D6-917F-2D43D351F06F}"
+	ProjectSection(SolutionItems) = preProject
+		CreateNugetPackage.txt = CreateNugetPackage.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +22,8 @@ Global
 		{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24022BE6-6A8B-4B86-8F1D-FF9942C1491A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADAB4E71-4D04-469D-BE80-5740167067B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
