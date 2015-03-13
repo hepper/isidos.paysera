@@ -43,6 +43,18 @@ namespace Isidos.Paysera
             return defaultValue.HasValue ? defaultValue.Value : default(int);
         }
 
+        public static int? ToNullableInt(this string source)
+        {
+            if (!string.IsNullOrEmpty(source))
+            {
+                int result;
+                if (int.TryParse(source, out result))
+                    return result;
+
+            }
+            return null;
+        }
+
         public static EntityValidationResult Validate<T>(this T entity) where T : class
         {
             return new EntityValidator<T>().Validate(entity);

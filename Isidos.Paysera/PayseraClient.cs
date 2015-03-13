@@ -97,7 +97,14 @@ namespace Isidos.Paysera
                 {"sign", sign}
             };
             var requestQuery = requestQueryParams.ToQueryString();
-            return string.Format("{0}?{1}", AppSettings.PayUrl, requestQuery);
+            var paymentUrl = AppSettings.PayUrl;
+
+            if (string.IsNullOrEmpty(paymentUrl))
+            {
+                paymentUrl = "https://www.mokejimai.lt/pay/";
+            }
+
+            return string.Format("{0}?{1}", paymentUrl, requestQuery);
         }
         
         public string BuildRepeatRequestUrl(string orderId)
@@ -112,7 +119,7 @@ namespace Isidos.Paysera
             return BuildRequestUrl(request);
         }
 
-        private PayseraResponse GetCallbackData(NameValueCollection query)
+        public PayseraResponse GetCallbackData(NameValueCollection query)
         {
             var dataAsBase64 = query["data"];
             var ss2AsBase64 = query["ss2"];

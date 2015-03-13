@@ -194,7 +194,7 @@ namespace Isidos.Paysera
         
         public string ToBase64String()
         {
-            var dateFormat = string.IsNullOrEmpty(AppSettings.PayseraDateFormat) ? "yyyy-MM-dd hh:mm:ss" : AppSettings.PayseraDateFormat;
+            var dateFormat = string.IsNullOrEmpty(AppSettings.PayseraDateFormat) ? "yyyy-MM-dd HH:mm:ss" : AppSettings.PayseraDateFormat;
             if (TimeLimit == DateTime.MinValue)
             {
                 TimeLimit = DateTime.Now.AddMinutes(60);
@@ -244,7 +244,6 @@ namespace Isidos.Paysera
                 @params.Add(param.Key, param.Value);
             }
 
-            Trace.WriteLine(@params.ToQueryString());
             return @params.ToQueryString().EncodeBase64UrlSafe();
         }
 

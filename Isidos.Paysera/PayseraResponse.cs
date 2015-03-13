@@ -23,8 +23,25 @@ namespace Isidos.Paysera
                 if (queryParam == null) 
                     continue;
                 
-                prop.SetValue(this, queryParam, null);
-                boundParams.Add(prop.Name);
+				if (prop.PropertyType == typeof(string))
+                {
+                    prop.SetValue(this, queryParam, null);
+					boundParams.Add(prop.Name);
+                }
+
+                if (prop.PropertyType == typeof(int))
+                {
+                    prop.SetValue(this, queryParam.ToInt(), null);
+					boundParams.Add(prop.Name);
+                }
+
+                if (prop.PropertyType == typeof(int?))
+                {
+                    prop.SetValue(this, queryParam.ToNullableInt(), null);
+					boundParams.Add(prop.Name);
+                }
+				
+                
             }
 
             var additionalQueryParameters = @params.AllKeys.Where(x => !boundParams.Contains(x));
