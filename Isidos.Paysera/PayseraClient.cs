@@ -18,13 +18,7 @@ namespace Isidos.Paysera
         {
             return Init(AppSettings.ProjectId, AppSettings.SignPassword);
         }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="pId">Project Id - Unique project number. Only approved projects can accept payments</param>
-        /// <param name="password"></param>
-        /// <returns></returns>
+        
         public static PayseraClient Init(string pId, string password = "")
         {
 
