@@ -239,9 +239,14 @@ namespace Isidos.Paysera
             }
 
             // Add additional parameter if he is not already in the list of params
-            foreach (var param in AdditionalParameters.Cast<KeyValuePair<string, string>>().Where(param => !@params.AllKeys.Contains(param.Key)))
+            var items = AdditionalParameters.AllKeys.SelectMany(AdditionalParameters.GetValues, (k, v) => new { key = k, value = v });
+            
+            foreach (var item in items)
             {
-                @params.Add(param.Key, param.Value);
+                if (!@params.AllKeys.Contains(item.key))
+                {
+                    @params.Add(item.key, item.value);
+                }
             }
 
             return @params.ToQueryString().EncodeBase64UrlSafe();
